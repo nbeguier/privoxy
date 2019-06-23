@@ -210,7 +210,6 @@ jmobqzz.dnsalias.net
 # osm
 .adcolony.com
 .bksn.se
-graph.facebook.com
 .adleadevent.com
 .adjust.com
 .ssacdn.com
@@ -250,15 +249,23 @@ static.jvc.gg
 .appsflyer.com
 .ati-host.net
 .weborama.fr
+.accengage.com
+.abtasty.com
+hit.leboncoin.fr
+leboncoin.fr/android_mediametrie
 
 # SmartScale
 .umeng.com
+.umsns.com
 
-# Huawei SantÃ©
+# Huawei Health
 .hicloud.com
 80.158.20.215
 80.158.17.255
+80.158.6.113
 160.44.207.227
+160.44.207.213
+.dbankcdn.com
 
 # Shazaam
 .smaato.net
@@ -269,7 +276,50 @@ static.jvc.gg
 # ES explorer
 .estrongs.com
 
+# Slack
+.bugsnag.com
+
+# Dailymotion
+.dmcdn.net
+logger.dailymotion.com
+dmxleo.dailymotion.com
+.dm-event.net
+.dyntrk.com
+id5-sync.com
+.bidswitch.net
+
+# Facebook data
+## Facebook won't work well... but who use it and want privacy ?
+graph.facebook.com
+
+# Denicheur
+cdn.pji.nu
+.kxcdn.com
+
+# Instagram
+.cdninstagram.com
+graph.instagram.com
+i.instagram.com
+
+# Edenred
+.appcenter.ms
+services.myedenred.fr
+
 # other
+ssl.qrdroid.com
+.urbanairship.com
+onesignal.com
+.batch.com
+.inbenta.com
+.tealiumiq.com
+.adobedtm.com
+qsurvey.mozilla.com
+.commander1.com
+.melty.fr
+.meltygroup.com
+.jwp[a-z][a-z][a-z].com
+.jwplatform.com
+.tagcommander.com
 log.tbs.qq.com
 cfg.imtt.qq.com
 ccpce-de.consumer.huawei.com
