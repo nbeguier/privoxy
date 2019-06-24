@@ -16,7 +16,7 @@ echo "{ +block{${NAME}} }" > "/etc/privoxy/${NAME}.action"
 grep '\^\$third-party' "${TMPFILE}" | 
     tr '@@||' '\n.' |
     sed 's/\^\$third-party//g' |
-    cut -c 2- |
+    sed -E 's/^[\.]+(.*)/\.\1/g' |
     sed -E 's/\.([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+)/\1/g' |
     sort -u |
     grep -E '^[a-zA-Z0-9.-]+$' >> "/etc/privoxy/${NAME}.action"
