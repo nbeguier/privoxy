@@ -1,6 +1,6 @@
 config
 default.*
 match-all.*
-templates/
+templates
 trust
 user.filter
