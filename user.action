@@ -162,7 +162,6 @@ analytics.*.
 # This will allow it for your-example-bank.com:
 #
 { -filter{all-popups} }
-.banking.example.com
 
 # Some hosts and some file types you may not want to filter for
 # various reasons:
@@ -178,7 +177,6 @@ analytics.*.
 # And this stupid host sends streaming video with a wrong MIME type,
 # so that Privoxy thinks it is getting HTML and starts filtering:
 #
-stupid-server.example.com/
 
 
 
@@ -237,7 +235,6 @@ app-measurement.com
 
 # jv.com
 ea.warnerbros.fr
-static.jvc.gg
 
 # leboncoin
 .tiqcdn.com
@@ -1721,7 +1718,7 @@ st.chatango.com
 .date-click.de
 .adtmag.com
 adressbuch.web.de
-
+.pagerduty.com
 
 { +fast-redirects{check-decoded-url} }
 # freemailng*.web.de
